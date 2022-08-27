@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
+import Home from "./pages/home/Home"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,9 +12,12 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Sidebar />
         <div className="container">
-          <Sidebar />
           <Topbar />
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+          </Routes>
         </div>
       </BrowserRouter>
     </div>
