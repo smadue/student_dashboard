@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home"
+import Admission from "./pages/admission/Admission";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
           <Topbar />
           <Routes>
             <Route path="/" element={<Home />}></Route>
+            <Route path="/status" element={<Admission />}></Route>
           </Routes>
         </div>
       </BrowserRouter>

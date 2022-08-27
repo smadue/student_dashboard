@@ -23,7 +23,7 @@ export default function Home() {
                   <span className="homeLinkText">Apply Now</span>
                 </li>
               </Link>
-              <Link to="/pdsApplication" className="homeReadmore">
+              <Link to="/undergraduateApplication" className="homeReadmore">
                 Readmore
               </Link>
             </div>
@@ -38,7 +38,7 @@ export default function Home() {
                   <span className="homeLinkText">Apply Now</span>
                 </li>
               </Link>
-              <Link to="/pdsApplication" className="homeReadmore">
+              <Link to="/undergraduateApplication" className="homeReadmore">
                 Readmore
               </Link>
             </div>
@@ -53,7 +53,7 @@ export default function Home() {
                   <span className="homeLinkText2">Apply Now</span>
                 </li>
               </Link>
-              <Link to="/pdsApplication" className="homeReadmore">
+              <Link to="/undergraduateApplication" className="homeReadmore">
                 Readmore
               </Link>
             </div>
@@ -71,7 +71,7 @@ export default function Home() {
                   <span className="homeLinkText">Apply Now</span>
                 </li>
               </Link>
-              <Link to="/pdsApplication" className="homeReadmore">
+              <Link to="/undergraduateApplication" className="homeReadmore">
                 Readmore
               </Link>
             </div>
@@ -86,7 +86,7 @@ export default function Home() {
                   <span className="homeLinkText2">Apply Now</span>
                 </li>
               </Link>
-              <Link to="/pdsApplication" className="homeReadmore">
+              <Link to="/undergraduateApplication" className="homeReadmore">
                 Readmore
               </Link>
             </div>
@@ -101,7 +101,7 @@ export default function Home() {
                   <span className="homeLinkText">Apply Now</span>
                 </li>
               </Link>
-              <Link to="/pdsApplication" className="homeReadmore">
+              <Link to="/undergraduateApplication" className="homeReadmore">
                 Readmore
               </Link>
             </div>
