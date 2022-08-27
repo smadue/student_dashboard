@@ -1,5 +1,139 @@
 .home{
 	flex: 4;
-	padding: 20px;
+	padding: 30px;
 	margin-top: 70px;
+	background: rgb(248, 248, 248);
+	height: 100vh;
 }
+
+.homeWrapper{
+
+}
+
+.homeTop{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.homeTitle{
+	color: gray;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.homeWelcome{
+	color: #fff;
+	background: rgb(74, 74, 238);
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+.homeBoxWrapper{
+	display: flex;
+	margin-top: 50px;
+}
+
+.homeBox1{
+	width: 20%;
+	background: #fff;
+	padding: 25px 70px 25px 60px;
+	margin-right: 50px;
+	border-left: 10px solid green;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); 
+	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.homeBox2{
+	width: 20%;
+	background: #fff;
+	padding: 25px 70px 25px 60px;
+	margin-right: 50px;
+	border-left: 10px solid red;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); 
+	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.homeBoxTitle{
+	color: green;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.homeBoxTitle2{
+	color: red;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.homeBoxLiWrapper{
+	margin-top: 10px;
+}
+
+.homeLinkTitle{
+	color: green;
+}
+
+.homeLinkTitle2{
+	color: red;
+}
+
+.homeLink{
+	list-style: none;
+	text-decoration: none;
+}
+
+.homeLinkBtn{
+	padding: 0;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.homeLinkIcon{
+	color: #fff;
+	font-size: 30px !important;
+	background: rgb(4, 87, 4);
+	border-radius: 7px 0 0 7px;
+	padding: 5px;
+}
+
+.homeLinkIcon2{
+	color: #fff;
+	font-size: 30px !important;
+	background: rgb(128, 2, 2);
+	border-radius: 7px 0 0 7px;
+	padding: 5px;
+}
+
+.homeLinkText{
+	background: rgb(5, 173, 5);
+	padding: 10.5px 15px 10.5px 15px;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 0 7px 7px 0;
+	color: #fff;
+	border: none;
+}
+
+.homeLinkText2{
+	background: rgb(252, 68, 68);
+	padding: 10.5px 15px 10.5px 15px;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 0 7px 7px 0;
+	color: #fff;
+	border: none;
+}
+
+.homeReadmore{
+	text-decoration: none;
+	color: rgb(134, 134, 241);
+}
+
+
+
