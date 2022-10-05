@@ -5,3 +5,47 @@
 	background: rgb(248, 248, 248);
 	height: 100vh;
 }
+
+.admissionWrapper{
+	justify-content: center;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 10px 13px -7px #9c9c9c, 5px 2px 32px -10px rgba(241, 242, 243, 0); 
+	box-shadow: 0px 10px 13px -7px #9c9c9c, 5px 2px 32px -10px rgba(230, 231, 233, 0);
+}
+
+.admissionContainer{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.admissionTitle h2 {
+	font-weight: 600;
+	color: rgb(46, 45, 45);
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.admissionBtn{
+	border: none;
+	background: darkorange;
+	padding: 5px 10px 5px 10px;
+	margin-top: 20px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 10px 13px -7px #9c9c9c, 5px 2px 32px -10px rgba(241, 242, 243, 0); 
+	box-shadow: 0px 10px 13px -7px #9c9c9c, 5px 2px 32px -10px rgba(230, 231, 233, 0);
+}
+
+.admissionBtn:hover{
+	background-color: rgb(243, 67, 67);
+}
+
+.admissionVec{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	padding: 5px;
+}
