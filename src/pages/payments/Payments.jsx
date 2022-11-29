@@ -7,17 +7,19 @@ export default function Payments() {
 	<div className="payments">
 	  <div className="paymentsWrapper">
 		<div className="paymentsWrapper">
-			<table>
-				<thead>
-					<th>Payments</th>
-					<th>Query</th>
-					<th>Status</th>
-				</thead>
-				<tbody>
-					<td>UTME Payment</td>
-					<td>Pay Now</td>
-					<td>Paid</td>
-				</tbody>
+			<table className="paymentTable" >
+					<tr>
+						<th>Particular</th>
+						<th>Amount</th>
+						<th>Query</th>
+						<th>Status</th>
+					</tr>
+					<tr>
+						<td>UTME Admission payment</td>
+						<td>N2500</td>
+						<td><button className="paymentBtn">Pay Now</button></td>
+						<td>Pending</td>
+					</tr>
 			</table>
 		</div>
 	  </div>
