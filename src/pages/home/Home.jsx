@@ -9,7 +9,7 @@ export default function Home() {
         <div className="homeTop">
           <h2 className="homeTitle">Admission Dashboard</h2>
           <span className="homeWelcome">
-            Hello, Victor Ogunniran | Saturday, 27th Aug. 2022
+            Hello, Wale Akaje | Saturday, 27th Aug. 2022
           </span>
         </div>
         <div className="homeBoxWrapper">

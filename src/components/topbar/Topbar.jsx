@@ -14,7 +14,7 @@ export default function Topbar() {
           />
           <Search className="topbarSearchIcon" />
           <div className="topbarWelAvatar">
-            <span className="topbarWelcome">Welcome, Venk Olatiloye</span>
+            <span className="topbarWelcome">Welcome, Wale Akaje</span>
             <img src={Avatar} alt="" className="topbarAvatar" />
           </div>
         </div>

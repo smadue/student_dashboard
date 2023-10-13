@@ -2,3 +2,20 @@
 	margin-top: 70px;
 	padding: 30px;
 }
+.paymentTable{
+	width: 80%;
+	margin-top: 20px;
+}
+.paymentTable th{
+	text-align: left;
+}
+.paymentTable tr{
+	margin: 50px;
+}
+.paymentBtn{
+	background: rgb(14, 128, 14);
+	border: none;
+	color: #fff;
+	padding: 5px 20px;
+	cursor: pointer;
+}
