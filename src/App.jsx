@@ -7,6 +7,7 @@ import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home"
 import Admission from "./pages/admission/Admission";
 import Payment from "./pages/payments/Payments";
+import Support from "./pages/support/Support";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/status" element={<Admission />}></Route>
             <Route path="/payments" element={<Payment />}></Route>
+            <Route path="/support" element={<Support />}></Route>
           </Routes>
         </div>
       </BrowserRouter>
