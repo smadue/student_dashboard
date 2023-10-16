@@ -14,13 +14,14 @@ export default function Support() {
         <div className="support">
             <div className="supportWrapper">
                 <div className="supportHead">
-                    <h1>How can we help?</h1>
+                    <h1 className="supportTitle">How can we help?</h1>
                     <div className="supportSearch">
                         <span>
-                            <SearchIcon />
-                            <input type="text" id="search" name="search" placeholder="Search our Support"/>
-                            <button>Search</button>
+                            <SearchIcon className="SearchIcon" />
+                            <input type="text" id="search" name="search" className="searchInput" placeholder="Search our Support"/>
+                            <button className="searchBtn">Search</button>
                         </span>
+                        
                     </div>
                     <div className="supportSection">
                         <div className="supportItem">
