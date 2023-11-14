@@ -9,7 +9,7 @@ export default function Admission() {
       <div className="admissionContainer">
         <div className="admissionTitle">
           <h2>Your Profile</h2>
-          <p><b>Hi Victor</b> Welcome to your Admission Status Page where you verify your current admission status<br></br> as applied on the school portal</p>
+          <p><b>Hi Wale</b> Welcome to your Admission Status Page where you verify your current admission status<br></br> as applied on the school portal</p>
           <button className="admissionBtn">Confirm Status</button>
         </div>
         <div className="admissionImg">
@@ -28,10 +28,10 @@ export default function Admission() {
         <h4 className="admissionStatus">Admission Status: Not Yet Admitted</h4>
         <div className="admissionDetail">
           <span className="admissionDetailTitle">Application Number: <b>A10243678CF</b></span>
-          <span className="admissionDetailTitle">First Name: <b>Olaoluwa</b></span>
-          <span className="admissionDetailTitle">Last Name: <b>Victor</b></span>
-          <span className="admissionDetailTitle">Surname Name: <b>Ogunniran</b></span>
-          <span className="admissionDetailTitle">Course: <b>Pure & Applied Chemistry</b></span>
+          <span className="admissionDetailTitle">First Name: <b>Wale</b></span>
+          <span className="admissionDetailTitle">Last Name: <b>Akaje</b></span>
+          <span className="admissionDetailTitle">Surname: <b>Ogunniran</b></span>
+          <span className="admissionDetailTitle">Course: <b>Pure & Applied Physics</b></span>
           <button className="admissionStatusBtn">Accept Admission</button>
         </div>
       </div>

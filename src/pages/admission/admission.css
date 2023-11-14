@@ -27,7 +27,7 @@
 
 .admissionBtn{
 	border: none;
-	background: darkorange;
+	background: rgb(243, 67, 67);
 	padding: 5px 10px 5px 10px;
 	margin-top: 20px;
 	color: white;
@@ -39,7 +39,7 @@
 }
 
 .admissionBtn:hover{
-	background-color: rgb(243, 67, 67);
+	background-color: darkorange;
 }
 
 .admissionVec{
