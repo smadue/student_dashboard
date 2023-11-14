@@ -8,6 +8,7 @@ import Home from "./pages/home/Home"
 import Admission from "./pages/admission/Admission";
 import Payment from "./pages/payments/Payments";
 import Support from "./pages/support/Support";
+import Password from "./pages/password/Password";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ function App() {
             <Route path="/status" element={<Admission />}></Route>
             <Route path="/payments" element={<Payment />}></Route>
             <Route path="/support" element={<Support />}></Route>
+            <Route path="/changePassword" element={<Password />}></Route>
           </Routes>
         </div>
       </BrowserRouter>
