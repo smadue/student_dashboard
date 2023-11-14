@@ -46,7 +46,7 @@ export default function Payments() {
 						<td>023456</td>
 						<td>UTME Admission payment</td>
 						<td>N2500</td>
-						<td><button className="paymentBtn">Pay Now</button></td>
+						<td><button className="paymentBtn active">Pay Now</button></td>
 						<td >Paid</td>
 					</tr>
 			</table>

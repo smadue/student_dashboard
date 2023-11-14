@@ -20,40 +20,49 @@ export default function Support() {
                             <SearchIcon className="SearchIcon" />
                             <input type="text" id="search" name="search" className="searchInput" placeholder="Search our Support"/>
                             <button className="searchBtn">Search</button>
-                        </span>
-                        
+                        </span>  
                     </div>
+
                     <div className="supportSection">
                         <div className="supportItem">
-                            <SportsVolleyballOutlinedIcon />
-                            <p>Getting Started</p>
-                            <KeyboardArrowRightIcon />
+                            <div className="supportText">
+                                <SportsVolleyballOutlinedIcon className="supportIcon"/>
+                                <p>Getting Started</p>
+                            </div>
+                            <KeyboardArrowRightIcon className="supportArrow"/>
                         </div>
                         <div className="supportItem">
-                            <PaymentIcon />
-                            <p>How to make Payment</p>
-                            <KeyboardArrowRightIcon />
+                            <div className="supportText">
+                                <PaymentIcon className="supportIcon"/>
+                                <p>How to make Payment</p>
+                            </div>
+                            <KeyboardArrowRightIcon className="supportArrow"/>
                         </div>
                         <div className="supportItem">
-                            <AccountCircleIcon />
-                            <p>Account & Profile</p>
-                            <KeyboardArrowRightIcon />
+                            <div className="supportText">
+                                <AccountCircleIcon className="supportIcon"/>
+                                <p>Account & Profile</p>
+                            </div>
+                            <KeyboardArrowRightIcon className="supportArrow"/>
                         </div>
                         <div className="supportItem">
-                            <WatchLaterIcon />
-                            <p>How to check Admission Status</p>
-                            <KeyboardArrowRightIcon />
+                            <div className="supportText">
+                                <WatchLaterIcon className="supportIcon"/>
+                                <p>How to check Admission Status</p>
+                            </div>
+                            <KeyboardArrowRightIcon className="supportArrow"/>
                         </div>
                     </div>
+                    
                     <div className="supportSection2">
                         <div className="section2Item">
-                            <TwitterIcon />
+                            <TwitterIcon className="section2ItemIcon"/>
                             <h3>Contact us on Twitter</h3>
                             <p>Message us on Twitter. We will contact you directly</p>
                             <button><a href="https://twitter.com/waleakaje" target="_blank">Tweet us</a></button>
                         </div>
                         <div className="section2Item">
-                            <PermPhoneMsgIcon />
+                            <PermPhoneMsgIcon className="section2ItemIcon"/>
                             <h3>Give us a Call</h3>
                             <p>Take us over the phone for additional help</p>
                             <button><a href="https://wa.me/+2348143249436" target="_blank">Call Now</a></button>
